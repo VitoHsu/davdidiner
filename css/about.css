@@ -1,0 +1,150 @@
+/*--top--*/
+p,a{
+    font-family: Microsoft JhengHei;
+}
+.top{
+    height: 90px;
+    width: 100%;
+    background: #222222;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.top_box{
+    width: 900px;
+    margin:0px auto;
+    position: relative;
+}
+.banner{
+    margin-top: 90px;
+}
+.logo{
+    line-height: 90px;
+    float: left;
+    color: #FFFFFF;
+    font-size: 12pt;
+    margin-right: 130px;
+}
+.top_menu{
+    float: left;
+}
+.top li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    line-height: 90px;
+    font-size: 12pt;
+}
+.top a{
+    color: #909090;
+    text-decoration:none;
+}
+.top a:hover{
+    color: #fff;
+}
+.media{
+    height: 35px;
+    position: absolute;
+    top:15px;
+    right: 0px;
+}
+.fb_icon{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+.line_icon{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-left: 10px;
+}
+/*--banner--*/
+/*--main--*/
+.main_box{
+    width: 900px;
+    margin:auto;
+    padding-top: 70px;
+}
+.about_1_img{
+    float: left;
+    margin-right:  50px;
+}
+.main li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.main ul{
+    color: #816943;
+    font-family: Microsoft JhengHei;
+}
+.about_1{
+    width: 900px;
+    margin-bottom: 25px;
+}
+.about_2{
+    width: 900px;
+}
+.about_2_L{
+    width: 380px;
+    float: left;
+    padding-bottom: 70px;
+    margin-right: 50px;
+}
+.about_2_R{
+    width: 470px;
+    float: left;
+    padding-top: 25px;
+}
+.about_icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+/*--footer--*/
+.footer{
+    width: 100%;
+    height: 220px;
+    padding: 40px 0px;
+    background: #222222;
+    clear: both;
+}
+.footer_menu_box{
+    width: 900px;
+    margin:0px auto;
+}
+.footer_menu{
+    width: 300px;
+    height: 140px;
+    float: left;
+    text-align: center;
+}
+.footer_menu_p{
+    color: #ffffff;
+}
+.footer_menu a{
+    color: #909090;
+}
+.footer_menu a:hover{
+    color: #fff;
+}
+h6{
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+}
+h3{
+    font-size: 24px;
+    line-height: 1.5em;
+    font-family: Microsoft JhengHei;
+}
+.h2_2{
+    background: #F3E9D8;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    line-height: 60px
+    font-family: Microsoft JhengHei;
+}
+h2{
+    font-family: Microsoft JhengHei;
+}

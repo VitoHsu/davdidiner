@@ -1,0 +1,478 @@
+
+/*--bootstrap--*/
+.navbar-header{
+    background: #222222;
+}
+.navbar-default{
+    background: #222222;
+}
+.carousel-indicators{
+    bottom:2%;
+}
+.navbar-nav>li>a{
+    line-height: 40px;
+}
+.navbar-brand {
+    line-height: 40px;
+    height: 70px;
+    color: #a2a2a2;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 3%;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    top: 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: #222222;
+}
+/*--top--*/
+p,a{
+    font-family: Microsoft JhengHei;
+    font-size: 14pt;
+}
+.top{
+    height: 90px;
+    width: 100%;
+    background: #222222;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    padding:0 4%;
+}
+.top_box{
+    width: 900px;
+    margin:0px auto;
+}
+.top li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    line-height: 60px;
+}
+.top a{
+    color: #909090;
+    text-decoration:none;
+}
+.top a:hover{
+    color: #fff;
+}
+.logo{
+    line-height: 60px;
+    float: left;
+    color: #FFFFFF;
+    margin-right: 50px;
+}
+.top_menu{
+    float: left;
+}
+.media{
+    height: 35px;
+    top:15px;
+    right: 0px;
+}
+.media_icon{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-left: 10px;
+}
+/*--banner--*/
+.banner{
+    margin-top: 90px;
+}
+/*--index_main--*/
+.main_box1{
+    padding:7% 0;
+    width: 100%;
+    background: #ffffff;
+}
+.main_title_1{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto;
+    width: 60%;
+    height: 60px;   
+    border-top: 30px solid #2B4D2F;
+    border-bottom: 30px solid #2B4D2F;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+}
+.main_title_1 a{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0% 3%;
+}
+.main_textbox p{
+    text-align: center;
+    margin:40px auto;
+}
+.main_img1{
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+.main_img1 img{
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+}
+.main_box2{
+    overflow: hidden;
+    padding:7% 0;
+    width: 100%;
+    background: #F4EFDF;
+}
+.main_title_2{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto;
+    width: 60%;
+    height: 60px;   
+    border-top: 30px solid #CD2420;
+    border-bottom: 30px solid #CD2420;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    margin-bottom: 40px;
+}
+.main_title_2 a{
+    font-size: 30px;
+    color: #ffffff;
+}
+.main_box2_libox{
+    overflow: hidden;
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main_box2 ul{
+    margin: 0;
+    padding:0;
+}
+.main_box2_li{
+    background: #fff;
+    list-style: none;
+    float: left;
+    width: 25%;
+    padding: 3% 2%;
+    text-align:center;
+}
+.text-primary{
+    font-size: 12px;
+    color: #E35D3F;
+}
+/*--about_main--*/
+.main_aboutbox{
+    max-width: 900px;
+    margin:auto;
+    padding:7% 0;
+    overflow: hidden;
+}
+.main_about1_img{
+    max-width: 380px;
+    float: left;
+    margin-right:5%;
+}
+.main_about1{
+    max-width: 900px;
+    margin-bottom: 5%;
+}
+.main_about2{
+    max-width: 900px;
+}
+.main_about2_text{
+    max-width: 380px;
+    float: left;
+    margin-right: 5%;
+}
+.main_about2_media{
+    float: left;
+    padding-top: 3%;
+}
+.main_about_icon{
+    width: 60px;
+    height: 60px;
+}
+/*--menu_main--*/
+.menu_main{
+    padding: 7% 0;
+    overflow: hidden;
+}
+.menu_mainbox{
+    width: 100%;
+    margin:0 auto ;
+}
+.menu_main_title{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto 40px auto;
+    width: 60%;
+    height: 60px;   
+    border-top: 30px solid #2B4D2F;
+    border-bottom: 30px solid #2B4D2F;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+}
+.menu_main_title p{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0% 3%;
+}
+.menu_main_T{
+    max-width: 900px;
+    text-align: center;
+    margin:0 auto 40px auto;
+}
+.menu_main_B{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu_main_T_h2box{
+    background: #CE281F;
+    border-radius: 10px 10px 0 0;
+}
+.menu_main_T_h2box h2{
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: Microsoft JhengHei;
+}
+.main_T_package{
+    overflow: hidden;
+}
+.main_T_package_h2bg h2{
+    color: #E01717;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: Microsoft JhengHei;
+}
+.menu_main_T p{
+    font-size: 18px;
+}
+.menu_main_T_offer{
+    color: #E01717;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Microsoft JhengHei;
+    padding: 15px 0 ;
+    line-height: 40px;
+}
+.main_T_package_pbox{
+    height: 60px;
+}
+.main_T_package_pbox p{
+    line-height: 30px;
+}
+.main_T_package_pbox_en{
+    padding: 10px 0px;
+    height: 50px;
+}
+.menu_main_L{
+    width: 47.5%;
+    margin-right: 5%;
+    float: left;
+}
+.menu_main_R{
+    width: 47.5%;
+    float: left;
+}
+.main_menu_title{
+    height: 50px; 
+    background: #F7F3E2;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Microsoft JhengHei;
+}
+.bbq{
+    margin-bottom: 40px;
+}
+.main_menu{
+    width: 430px;
+    height: 50px;
+    position: relative;
+    margin: 30px 0;
+}
+.main_menu_en{
+    width: 430px;
+    position: relative;
+    margin: 15px 0;
+}
+.price{
+    position: absolute;
+    top:26px;
+    right: 0px;
+    color: #E01717; 
+}
+.price_en{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: #E01717;
+}
+.menu_main_gift h6{
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #E01717;
+    line-height: 25px;
+    border:1.5px dashed #E01717;
+}
+.menu_main_gift2 h6{
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #fff;
+    line-height: 25px;
+    background: #9B633D;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 27px;
+}
+/*--footer--*/
+.footer{
+    width: 100%;
+    height: 220px;
+    padding: 40px 0px;
+    background: #222222;
+    clear: both;
+}
+.footer_menu_box{
+    width: 900px;
+    margin:0px auto;
+}
+.footer_menu{
+    width: 300px;
+    height: 140px;
+    float: left;
+    text-align: center;
+}
+.footer_menu_p{
+    color: #ffffff;
+}
+.footer_menu a{
+    color: #909090;
+}
+.footer_menu a:hover{
+    color: #fff;
+}
+
+/*--Overlays--*/
+@media only screen and (max-width: 917px){
+
+}
+@media only screen and (max-width: 900px){
+.main_box2_libox{
+    width: 100%;
+}
+.main_img1{
+    width: 100%;
+}
+.top_box{
+    width: 100%;
+}
+.footer_menu_box{
+    width: 100%;
+}
+.footer_menu{
+    width: 100%;
+    float: none;
+}
+.footer{
+    height: auto;
+}
+.fa-4x{
+    font-size: 3.5em;
+}
+/**/
+.main_about1_img{
+    float: none;
+    margin: 0 auto 5% auto;
+}
+.main_about1_text{
+    clear: both;
+    text-align: center;
+    margin-bottom: 8%;
+    padding: 0 5%;
+}
+.main_about2_text{
+    padding: 0 5%;
+    clear: both;
+    margin: 0 auto;
+    max-width:none;
+}
+.main_about2_media{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+.header-text h2{
+    font-size: 30px;
+ }
+.header-text h3{
+     font-size:19px;
+}
+.main_title_1 a{
+    font-size: 23px;
+}
+.main_title_2 a{
+    font-size: 23px;
+}
+.main_box2_li{
+    width: 50%;
+}
+h6{
+    font-size: 18px;
+}
+.main_textbox{
+    padding: 0 3%;
+}
+/**/
+.menu_main_T{
+    padding: 0 3%;
+}
+.menu_main_L{
+    padding: 0 3%;
+    width: 100%;
+    margin-right:none;
+    float: none;
+}
+.menu_main_R{
+    padding: 0 3%;
+    width: 100%;
+    margin-right:none;
+    float: none;
+}
+
+}
+@media only screen and (max-width: 360px){
+.main_title_1 a{
+    font-size: 18px;
+}
+.main_title_2 a{
+    font-size: 18px;
+}
+.main_box2_li{
+    width: 100%;
+}
+p,a{
+    font-family: Microsoft JhengHei;
+    font-size: 12pt;
+}
+h6{
+    font-size: 16px;
+}
+
+}

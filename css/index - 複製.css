@@ -1,0 +1,351 @@
+/*--top--*/
+p,a{
+    font-family: Microsoft JhengHei;
+}
+.top{
+    height: 90px;
+    width: 100%;
+    background: #222222;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.top_box{
+    width: 900px;
+    margin:0px auto;
+    position: relative;
+}
+.top li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    line-height: 90px;
+    font-size: 12pt;
+}
+.top a{
+    color: #909090;
+    text-decoration:none;
+}
+.top a:hover{
+    color: #fff;
+}
+.logo{
+    line-height: 90px;
+    float: left;
+    color: #FFFFFF;
+    font-size: 12pt;
+    margin-right: 130px;
+}
+.top_menu{
+    float: left;
+}
+.media{
+    height: 35px;
+    position: absolute;
+    top:15px;
+    right: 0px;
+}
+.media_icon{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-left: 10px;
+}
+/*--banner--*/
+.banner{
+    margin-top: 90px;
+}
+/*--index_main--*/
+.main_box1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background: #ffffff;
+}
+.main_title_1{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto;
+    width: 530px;
+    height: 60px;   
+    border-top: 30px solid #2B4D2F;
+    border-bottom: 30px solid #2B4D2F;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+}
+.main_title_1 a{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.main_textbox p{
+    text-align: center;
+    margin:40px auto;
+}
+.main_img1{
+    width: 900px;
+    height: 340px;
+    margin:0px auto;
+}
+.main_box2{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background: #F4EFDF;
+}
+.main_title_2{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto;
+    width: 530px;
+    height: 60px;   
+    border-top: 30px solid #CD2420;
+    border-bottom: 30px solid #CD2420;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    margin-bottom: 40px;
+}
+.main_title_2 a{
+    font-size: 2em;
+    color: #ffffff;
+}
+.main_service{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.main_servicebox1{
+    height: 280px;
+    width: 930px;
+}
+.main_servicebox2{
+    width: 210px;
+    height: 320px;
+    float: left;
+    text-align: center;
+    padding: 40px 15px;
+    margin-right: 20px;
+    background: #ffffff;
+}
+.main_servicebox2 h6 {
+    font-size: 18px;
+    font-family: Microsoft JhengHei;
+}
+.main_servicebox2_en{
+    width: 210px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    padding: 40px 15px;
+    margin-right: 20px;
+    background: #ffffff;
+}
+.text-primary{
+    font-size: 12px;
+    color: #E35D3F;
+    margin-bottom: 40px;
+}
+/*--about_main--*/
+.main_aboutbox{
+    width: 900px;
+    margin:auto;
+    padding-top: 70px;
+}
+.main_about1_img{
+    float: left;
+    margin-right:  50px;
+}
+.main_about ul{
+    color: #816943;
+    font-family: Microsoft JhengHei;
+}
+.main_about li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.main_about1{
+    width: 900px;
+    margin-bottom: 25px;
+}
+.main_about2{
+    width: 900px;
+}
+.main_about2_L{
+    width: 380px;
+    float: left;
+    padding-bottom: 70px;
+    margin-right: 50px;
+}
+.main_about2_R{
+    width: 470px;
+    float: left;
+    padding-top: 25px;
+}
+.main_about_icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+/*--menu_main--*/
+.menu_main{
+    padding: 70px 0;
+    overflow: hidden;
+}
+.menu_mainbox{
+    width: 900px;
+    margin:0 auto ;
+}
+.menu_main_title{
+    text-align: center;
+    line-height: 0px;
+    margin:0px auto 40px auto;
+    width: 530px;
+    height: 60px;   
+    border-top: 30px solid #2B4D2F;
+    border-bottom: 30px solid #2B4D2F;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+}
+.menu_main_title p{
+    color: #fff;
+    font-size: 2em;
+}
+.menu_main_T{
+    width: 900px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.menu_main_T_h2box{
+    background: #CE281F;
+    border-radius: 10px 10px 0 0;
+}
+.menu_main_T_h2box h2{
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: Microsoft JhengHei;
+}
+.main_T_package_h2bg h2{
+    color: #E01717;
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: Microsoft JhengHei;
+}
+.menu_main_T p{
+    font-size: 18px;
+}
+.menu_main_T_offer{
+    color: #E01717;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Microsoft JhengHei;
+    padding: 15px 0 ;
+    line-height: 40px;
+}
+.main_T_package_pbox{
+    height: 60px;
+}
+.main_T_package_pbox p{
+    line-height: 30px;
+}
+.main_T_package_pbox_en{
+    padding: 10px 0px;
+    height: 50px;
+}
+.menu_main_L{
+    width: 430px;
+    margin-right: 40px;
+    float: left;
+}
+.menu_main_R{
+    width: 430px;
+    float: left;
+}
+.main_menu_title{
+    height: 50px; 
+    background: #F7F3E2;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Microsoft JhengHei;
+}
+.bbq{
+    width: 1000px;
+    margin-bottom: 40px;
+}
+.main_menu{
+    width: 430px;
+    height: 50px;
+    position: relative;
+    margin: 30px 0;
+}
+.main_menu_en{
+    width: 430px;
+    position: relative;
+    margin: 15px 0;
+}
+.price{
+    position: absolute;
+    top:26px;
+    right: 0px;
+    color: #E01717; 
+}
+.price_en{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color: #E01717; 
+}
+.menu_main_gift h6{
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #E01717;
+    line-height: 25px;
+    border:1.5px dashed #E01717;
+}
+.menu_main_gift2 h6{
+    padding: 10px 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    color: #fff;
+    line-height: 25px;
+    background: #9B633D;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 27px;
+}
+/*--footer--*/
+.footer{
+    width: 100%;
+    height: 220px;
+    padding: 40px 0px;
+    background: #222222;
+    clear: both;
+}
+.footer_menu_box{
+    width: 900px;
+    margin:0px auto;
+}
+.footer_menu{
+    width: 300px;
+    height: 140px;
+    float: left;
+    text-align: center;
+}
+.footer_menu_p{
+    color: #ffffff;
+}
+.footer_menu a{
+    color: #909090;
+}
+.footer_menu a:hover{
+    color: #fff;
+}
+/*--Overlays--*/
